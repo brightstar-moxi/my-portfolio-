@@ -1,5 +1,6 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from "next/image";
+import Image1 from '/public/images/HeroImage.png'
 const HeroSection = () => {
   return (
     <section>
@@ -12,12 +13,15 @@ const HeroSection = () => {
         ex possimus aspernatur. Eveniet, perspiciatis tenetur!</p>
        </div>
        <div className='col-span-5'>
-        <Image 
-        src="/public/images/2-removebg-preview.png"
+       <div className='rounded-full bg-[#181818] w-[500px] h-[500px] relative'>
+       <Image 
+        src={Image1}
         alt="hero image"
+        className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
         width={300}
         height={300}
         />
+       </div>
        </div>
        </div>
     </section>
