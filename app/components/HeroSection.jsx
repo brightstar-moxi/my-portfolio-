@@ -33,7 +33,12 @@ const HeroSection = () => {
     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Amet, sit adipisci recusandae earum, id ipsum provident 
         placeat itaque et accusantium quis quia debitis assumenda, 
-        ex possimus aspernatur. Eveniet, perspiciatis tenetur!</p>
+        ex possimus aspernatur. Eveniet, perspiciatis tenetur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing
+         elit. Officia cupiditate et officiis accusamus earum 
+         sequi corporis, totam animi magni ad sit, voluptates 
+         commodi perspiciatis,
+     maiores eveniet placeat alias quae blanditiis.</p>
        <div>
         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire Me</button>
         <button  className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white  mt-3'>
