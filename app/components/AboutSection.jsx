@@ -13,7 +13,7 @@ const AboutSection = () => {
         height={500}
         />
         <div>
-            <h2>About Me</h2>
+            <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p>As a software developer, my journey begins with lines of code and algorithms that breathe life into digital landscapes. Proficient in languages such as Python, Java, and JavaScript, 
                 I embark on the intricate task of solving complex problems and crafting solutions that stand at the intersection of functionality and efficiency.
                  The software development lifecycle becomes my canvas, where I meticulously plan, code, test, and deploy, 
