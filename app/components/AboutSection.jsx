@@ -5,7 +5,42 @@ import Image2 from '/public/images/HeroImage.png'
 import TabButton from './TabButton';
 
 const TAB_DATA = [
-    {}
+    {
+     title: "Skills",
+     id: "skills",
+     content: (
+        <ul>
+            <li>Node.JS</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Angular</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+     )
+    },
+
+    {
+        title: "Education",
+        id: "education",
+        content: (
+           <ul>
+               <li>The Polytechnic, Ibadan</li>
+               <li>SQI College of ICT</li>
+              
+           </ul>
+        )
+       },
+       {
+        title: "Certification",
+        id: "Certification",
+        content: (
+           <ul>
+               <li>Website Design & Software Development</li>
+               <li>Software Engineer</li>
+           </ul>
+        )
+       }
 ]
 
 
