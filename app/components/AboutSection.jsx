@@ -2,11 +2,16 @@
 import React, {useTransition, useState} from 'react'
 import Image from "next/image";
 import Image2 from '/public/images/HeroImage.png'
+import TabButton from './TabButton';
+
+const TAB_DATA = [
+    {}
+]
 
 
 const AboutSection = () => {
     const [tab, SetTab] = useState("skills");
-    const [startTransition, isPending] = useTransition();
+    const [isPending,startTransition] = useTransition();
 
 
 
@@ -34,9 +39,19 @@ const AboutSection = () => {
                  ensuring that each line serves a purpose and contributes to the overall success of the project.
                  </p>
                  <div className='flex flex-row mt-8'>
-                    <span className='mr-3 font-semibold hover:text-white text-[#ADB7BE] border-b border-purple-500'>Skills</span>
-                    <span>Education</span>
-                    <span>Experience</span>
+                 <TabButton selectTab={() => handleTabChange("skills")} 
+                    active={tab === "skills"}> {" "}
+                    Skill{" "}
+                    </TabButton>
+                    <TabButton selectTab={() => handleTabChange("education")} 
+                    active={tab === "Education"}> {" "}
+                    Education{" "}
+                    </TabButton>
+                    <TabButton selectTab={() => handleTabChange("certificate")} 
+                    active={tab === "certificate"}> {" "}
+                    Certificate{" "}
+                    </TabButton>
+                   
                  </div>
         </div>
         </div></section>
