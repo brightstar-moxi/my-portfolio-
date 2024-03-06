@@ -10,12 +10,12 @@ const TAB_DATA = [
      id: "skills",
      content: (
         <ul>
-            <li>Node.JS</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>Angular</li>
-            <li>JavaScript</li>
-            <li>React</li>
+            <li>Node.JS.</li>
+            <li>Express.</li>
+            <li>MongoDB.</li>
+            <li>Angular.</li>
+            <li>JavaScript.</li>
+            <li>React.Js</li>
         </ul>
      )
     },
@@ -25,19 +25,21 @@ const TAB_DATA = [
         id: "education",
         content: (
            <ul>
-               <li>The Polytechnic, Ibadan</li>
-               <li>SQI College of ICT</li>
+               <li>The Polytechnic, Ibadan.</li>
+               <li>SQI College of ICT.</li> 
+               <li>Kwara State University.</li>
               
            </ul>
         )
        },
        {
         title: "Certification",
-        id: "Certification",
+        id: "certificate",
         content: (
            <ul>
-               <li>Website Design & Software Development</li>
-               <li>Software Engineer</li>
+               <li>Website Design & Software Development.</li>
+               <li>Software Engineer.</li>
+               <li>Cyber Security.</li>
            </ul>
         )
        }
@@ -79,7 +81,7 @@ const AboutSection = () => {
                     Skill{" "}
                     </TabButton>
                     <TabButton selectTab={() => handleTabChange("education")} 
-                    active={tab === "Education"}> {" "}
+                    active={tab === "education"}> {" "}
                     Education{" "}
                     </TabButton>
                     <TabButton selectTab={() => handleTabChange("certificate")} 
@@ -88,6 +90,7 @@ const AboutSection = () => {
                     </TabButton>
                    
                  </div>
+                 <div className='mt-8'>{ TAB_DATA.find((t) => t.id === tab).content}</div>
         </div>
         </div></section>
   )
