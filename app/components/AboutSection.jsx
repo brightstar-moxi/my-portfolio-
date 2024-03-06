@@ -9,7 +9,7 @@ const TAB_DATA = [
      title: "Skills",
      id: "skills",
      content: (
-        <ul>
+        <ul className='list-disc pl-2'>
             <li>Node.JS.</li>
             <li>Express.</li>
             <li>MongoDB.</li>
@@ -24,7 +24,7 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-           <ul>
+           <ul className='list-disc pl-2'>
                <li>The Polytechnic, Ibadan.</li>
                <li>SQI College of ICT.</li> 
                <li>Kwara State University.</li>
@@ -36,7 +36,7 @@ const TAB_DATA = [
         title: "Certification",
         id: "certificate",
         content: (
-           <ul>
+           <ul className='list-disc pl-2'>
                <li>Website Design & Software Development.</li>
                <li>Software Engineer.</li>
                <li>Cyber Security.</li>
@@ -68,14 +68,14 @@ const AboutSection = () => {
         width={500}
         height={500}
         />
-        <div>
+        <div className='mt-4 md:mt-0  flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base lg:text-lg'>As a software developer, my journey begins with lines of code and algorithms that breathe life into digital landscapes. Proficient in languages such as Python, Java, and JavaScript, 
                 I embark on the intricate task of solving complex problems and crafting solutions that stand at the intersection of functionality and efficiency.
                  The software development lifecycle becomes my canvas, where I meticulously plan, code, test, and deploy, 
                  ensuring that each line serves a purpose and contributes to the overall success of the project.
                  </p>
-                 <div className='flex flex-row mt-8'>
+                 <div className='flex flex-row justify-start mt-8'>
                  <TabButton selectTab={() => handleTabChange("skills")} 
                     active={tab === "skills"}> {" "}
                     Skill{" "}
