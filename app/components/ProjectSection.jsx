@@ -19,20 +19,20 @@ const projectData = [
         id: 3,
         title: "React animated Portfolio",
         description: "Project 3 description",
-        image: "/image/project/1.png"
+        image: "/images/project/1.png"
     }, {
         id: 4,
         title: "React animated Portfolio",
         description: "Project 4 description",
-        image: "/image/project/1.png"
+        image: "/images/project/1.png"
     }
 ]
 
 const ProjectSection = () => {
 
     return (
-        <><h2 className='text-center text-4xl font-bold text-white mt-4'>My Project</h2>
-            <div>{projectData.map((project) =>
+        <><h2 className='text-center text-4xl font-bold text-white mt-4'>My Projects</h2>
+            <div className='grid md:grid-cols-3 gap-8 md:gap-12'>{projectData.map((project) =>
                 <ProjectCard
                     key={project.id}
                     title={project.title}
