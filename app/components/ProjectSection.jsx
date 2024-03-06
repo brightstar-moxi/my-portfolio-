@@ -1,17 +1,20 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+// import Image from "next/image";
+// import Image1 from '/public/images/HeroImage.png'
 
 const projectData = [
     {
         id: 1,
         title: "React animated Portfolio",
         description: "Project 1 description",
-        image: "/image/project/1.png"
+        image: "/images/project/1.png",
+        tag: ["All","Web"]
     }, {
         id: 2,
         title: "React animated Portfolio",
         description: "Project 2 description",
-        image: "/image/project/1.png"
+        image: "/images/project/1.png"
     }, {
         id: 3,
         title: "React animated Portfolio",
@@ -28,7 +31,7 @@ const projectData = [
 const ProjectSection = () => {
 
     return (
-        <><h2>My Project</h2>
+        <><h2 className='text-center text-4xl font-bold text-white mt-4'>My Project</h2>
             <div>{projectData.map((project) =>
                 <ProjectCard
                     key={project.id}

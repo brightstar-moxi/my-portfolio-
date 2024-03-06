@@ -10,11 +10,11 @@ const TAB_DATA = [
      id: "skills",
      content: (
         <ul className='list-disc pl-2'>
-            <li>Node.JS.</li>
-            <li>Express.</li>
-            <li>MongoDB.</li>
-            <li>Angular.</li>
-            <li>JavaScript.</li>
+            <li>Node.JS</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Angular</li>
+            <li>JavaScript</li>
             <li>React.Js</li>
         </ul>
      )
@@ -25,9 +25,9 @@ const TAB_DATA = [
         id: "education",
         content: (
            <ul className='list-disc pl-2'>
-               <li>The Polytechnic, Ibadan.</li>
-               <li>SQI College of ICT.</li> 
-               <li>Kwara State University.</li>
+               <li>The Polytechnic, Ibadan</li>
+               <li>SQI College of ICT</li> 
+               <li>Kwara State University</li>
               
            </ul>
         )
@@ -37,9 +37,9 @@ const TAB_DATA = [
         id: "certificate",
         content: (
            <ul className='list-disc pl-2'>
-               <li>Website Design & Software Development.</li>
-               <li>Software Engineer.</li>
-               <li>Cyber Security.</li>
+               <li>Website Design & Software Development</li>
+               <li>Software Engineer</li>
+               <li>Cyber Security</li>
            </ul>
         )
        }
