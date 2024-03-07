@@ -1,7 +1,8 @@
-import React from 'react'
+"use client"
+
+import React, { useState } from 'react'
 import ProjectCard from './ProjectCard'
-// import Image from "next/image";
-// import Image1 from '/public/images/HeroImage.png'
+import ProjectTag from './ProjectTag'
 
 const projectData = [
     {
@@ -19,7 +20,7 @@ const projectData = [
         title: "React animated Portfolio",
         description: "Project 2 description",
         image: "/images/project/1.png",
-        tag: ["All", "Web"],
+        tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
     },
@@ -44,25 +45,39 @@ const projectData = [
 ]
 
 const ProjectSection = () => {
+    const [tag, setTag] = useState("All");
 
+    const handleTagChange = (newTag) => {
+        setTag(newTag);
+    };
+  const filteredProject = projectData.filter((project) => project.tag.includes(tag)
+  )
     return (
         <><h2 className='text-center text-4xl font-bold text-white mt-4'>My Projects</h2>
             <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
-                <button className='rounded-full border-2 border-purple-500 px-6 py-3 text-xl cursor-pointer'>All</button>
-                <button className='rounded-full border-2 border-slate-600 hover:border-white px-6 py-3 text-xl cursor-pointer'>Web</button>
-                <button className='rounded-full border-2 border-purple-500 px-6 py-3 text-xl cursor-pointer'>Design</button>
-            </div>
-            <div className='grid md:grid-cols-3 gap-8 md:gap-12'>{projectData.map((project) =>
+                <ProjectTag onClick={handleTagChange}
+                   name="All"
+                    isSelected={tag === "All"} />
 
-                <ProjectCard
-                    key={project.id}
-                    title={project.title}
-                    description={project.description}
-                    imgUrl={project.image}
-                    tags={project}
-                    gitUrl={project.gitUrl}
-                    previewUrl={project.previewUrl}
-                />)}</div></>
+                     <ProjectTag onClick={handleTagChange}
+                   name="Web"
+                    isSelected={tag === "Web"} />
+                      <ProjectTag onClick={handleTagChange}
+                   name="Design"
+                    isSelected={tag === "Design"} />
+            </div>
+            <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
+                {filteredProject.map((project) =>
+
+                    <ProjectCard
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        imgUrl={project.image}
+                        // tags={project}
+                        gitUrl={project.gitUrl}
+                        previewUrl={project.previewUrl}
+                    />)}</div></>
     )
 }
 
