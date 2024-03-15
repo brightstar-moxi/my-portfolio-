@@ -43,7 +43,14 @@ const AchievementSection = () => {
                                 <h2 className='text-white text-4xl font-bold'>
                                     <AnimatedNumbers includeComma animateToNumber={parseInt(achievement.value)}
                                     locale='en-US'
-                                    className='text-white text-4xl font-bold'/>
+                                    className='text-white text-4xl font-bold'
+                                    configs={((_, index) => {
+                                        return{
+                                            mass: 1,
+                                            friction:100,
+                                            tensions: 140 * (index + 1),
+                                        } 
+                                    })}/>
                                     </h2>
                                 <p className='text-[#ADB7BE] text-base'>{achievement.metric}</p>
                             </div>
