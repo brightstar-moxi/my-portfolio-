@@ -10,5 +10,5 @@ const Footer = () => {
         </footer>
     )
 }
-
+// npm i react-animated-numbers react-type-animation framer-motion
 export default Footer
