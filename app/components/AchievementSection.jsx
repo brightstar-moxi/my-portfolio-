@@ -9,23 +9,23 @@ const achievementsList = [
     {
         metric: "Projects",
         value: "100+",
-        postfix:"+"
+        postfix: "+"
     },
     {
         prefix: "~",
         metric: "Users",
         value: "10,000",
-       
+
     },
     {
         metric: "Awards",
         value: "7",
-       
+
     },
     {
         metric: "Years",
         value: "5",
-        
+
     }
 ]
 
@@ -40,18 +40,20 @@ const AchievementSection = () => {
                             <div key={index}
                                 className='flex flex-col items-center justify-center mx-4'
                             >
-                                <h2 className='text-white text-4xl font-bold'>
+                                <h2 className='text-white text-4xl font-bold flex flex-row'>
+                                    {achievement.prefix}
                                     <AnimatedNumbers includeComma animateToNumber={parseInt(achievement.value)}
-                                    locale='en-US'
-                                    className='text-white text-4xl font-bold'
-                                    configs={((_, index) => {
-                                        return{
-                                            mass: 1,
-                                            friction:100,
-                                            tensions: 140 * (index + 1),
-                                        } 
-                                    })}/>
-                                    </h2>
+                                        locale='en-US'
+                                        className='text-white text-4xl font-bold'
+                                        configs={((_, index) => {
+                                            return {
+                                                mass: 1,
+                                                friction: 100,
+                                                tensions: 140 * (index + 1),
+                                            }
+                                        })} />
+                                    {achievement.postfix}
+                                </h2>
                                 <p className='text-[#ADB7BE] text-base'>{achievement.metric}</p>
                             </div>
                         );
