@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Image from "next/image";
-import Image1 from '/public/images/HeroImage.png'
+import Image1 from '/public/images/Capture-removebg-preview.png'
 import { TypeAnimation } from 'react-type-animation';
 import {motion} from "framer-motion"
 
@@ -38,12 +38,7 @@ const HeroSection = () => {
     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Amet, sit adipisci recusandae earum, id ipsum provident 
         placeat itaque et accusantium quis quia debitis assumenda, 
-        ex possimus aspernatur. Eveniet, perspiciatis tenetur!
-        Lorem, ipsum dolor sit amet consectetur adipisicing
-         elit. Officia cupiditate et officiis accusamus earum 
-         sequi corporis, totam animi magni ad sit, voluptates 
-         commodi perspiciatis,
-     maiores eveniet placeat alias quae blanditiis.</p>
+        ex possimus aspernatur. </p>
      {/* via-purple-500
 via-purple-500 */}
        <div>
@@ -62,8 +57,8 @@ via-purple-500 */}
         src={Image1}
         alt="hero image"
         className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-        width={250}
-        height={250}
+        width={280}
+        height={280}
         />
        </div>
        </motion.div>
