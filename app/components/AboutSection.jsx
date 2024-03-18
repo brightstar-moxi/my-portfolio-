@@ -1,7 +1,7 @@
 "use client"
 import React, {useTransition, useState} from 'react'
 import Image from "next/image";
-import Image2 from '/public/images/HeroImage.png'
+import Image2 from '/public/images/laptop-coding-removebg-preview.png'
 import TabButton from './TabButton';
 
 const TAB_DATA = [
@@ -65,8 +65,8 @@ const AboutSection = () => {
          <Image 
         src={Image2}
         alt="about image"
-        width={500}
-        height={500}
+        width={600}
+        height={600}
         />
         <div className='mt-4 md:mt-0  flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
