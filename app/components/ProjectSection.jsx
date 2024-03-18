@@ -20,13 +20,92 @@ const projectData = [
         id: 2,
         title: "React animated Portfolio",
         description: "Project 2 description",
-        image: "/images/project/1.png",
+        image: "/images/project/artist-flyer-sample.JPG",
         tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
     },
     {
+
         id: 3,
+        title: "React animated Portfolio",
+        description: "Project 2 description",
+        image: "/images/project/cream5.png",
+        tag: ["All", "Design"],
+        gitUrl: "/",
+        previewUrl: "/"
+    },
+    {
+
+        id: 4,
+        title: "React animated Portfolio",
+        description: "Project 2 description",
+        image: "/images/project/ayomide4.png",
+        tag: ["All", "Design"],
+        gitUrl: "/",
+        previewUrl: "/"
+    },
+    {
+
+        id: 2,
+        title: "React animated Portfolio",
+        description: "Project 2 description",
+        image: "/images/project/artist-flyer-sample.JPG",
+        tag: ["All", "Design"],
+        gitUrl: "/",
+        previewUrl: "/"
+    },
+    {
+
+        id: 5,
+        title: "React animated Portfolio",
+        description: "Project 2 description",
+        image: "/images/project/artist-flyer-sample.JPG",
+        tag: ["All", "Design"],
+        gitUrl: "/",
+        previewUrl: "/"
+    },
+    {
+
+        id: 6,
+        title: "React animated Portfolio",
+        description: "Project 2 description",
+        image: "/images/project/artist-flyer-sample.JPG",
+        tag: ["All", "Design"],
+        gitUrl: "/",
+        previewUrl: "/"
+    },
+    {
+
+        id: 7,
+        title: "React animated Portfolio",
+        description: "Project 2 description",
+        image: "/images/project/artist-flyer-sample.JPG",
+        tag: ["All", "Design"],
+        gitUrl: "/",
+        previewUrl: "/"
+    },  {
+
+        id: 8,
+        title: "React animated Portfolio",
+        description: "Project 2 description",
+        image: "/images/project/artist-flyer-sample.JPG",
+        tag: ["All", "Design"],
+        gitUrl: "/",
+        previewUrl: "/"
+    },
+    {
+
+        id: 9,
+        title: "React animated Portfolio",
+        description: "Project 2 description",
+        image: "/images/project/artist-flyer-sample.JPG",
+        tag: ["All", "Design"],
+        gitUrl: "/",
+        previewUrl: "/"
+    },
+    {
+        id: 10,
         title: "React animated Portfolio",
         description: "Project 3 description",
         image: "/images/project/1.png",
@@ -35,7 +114,7 @@ const projectData = [
         previewUrl: "/"
     },
     {
-        id: 4,
+        id: 11,
         title: "React animated Portfolio",
         description: "Project 4 description",
         image: "/images/project/1.png",
