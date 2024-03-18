@@ -50,7 +50,7 @@ const projectData = [
         id: 2,
         title: "React animated Portfolio",
         description: "Project 2 description",
-        image: "/images/project/artist-flyer-sample.JPG",
+        image: "/images/project/segun.png",
         tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
@@ -60,7 +60,7 @@ const projectData = [
         id: 5,
         title: "React animated Portfolio",
         description: "Project 2 description",
-        image: "/images/project/artist-flyer-sample.JPG",
+        image: "/images/project/new.png",
         tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
@@ -70,7 +70,7 @@ const projectData = [
         id: 6,
         title: "React animated Portfolio",
         description: "Project 2 description",
-        image: "/images/project/artist-flyer-sample.JPG",
+        image: "/images/project/adesewa.png",
         tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
@@ -80,7 +80,7 @@ const projectData = [
         id: 7,
         title: "React animated Portfolio",
         description: "Project 2 description",
-        image: "/images/project/artist-flyer-sample.JPG",
+        image: "/images/project/cream2.png",
         tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
@@ -89,7 +89,7 @@ const projectData = [
         id: 8,
         title: "React animated Portfolio",
         description: "Project 2 description",
-        image: "/images/project/artist-flyer-sample.JPG",
+        image: "/images/project/learn.jpg",
         tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
@@ -99,7 +99,7 @@ const projectData = [
         id: 9,
         title: "React animated Portfolio",
         description: "Project 2 description",
-        image: "/images/project/artist-flyer-sample.JPG",
+        image: "/images/project/hairstylist-flyer.png",
         tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
