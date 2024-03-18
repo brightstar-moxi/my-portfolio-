@@ -12,8 +12,8 @@ const projectData = [
         description: "Project 1 description",
         image: "/images/project/1.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/"
+        gitUrl: "https://github.com/brightstar-moxi",
+        previewUrl: "https://brightstar-moses.onrender.com/"
     },
     {
 
@@ -38,8 +38,8 @@ const projectData = [
     {
 
         id: 4,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        title: "Patrick Wed Ayomide in love",
+        description: "Patrick was in love with Ayomide at Polytechnic Ibadan",
         image: "/images/project/ayomide4.png",
         tag: ["All", "Design"],
         gitUrl: "/",
