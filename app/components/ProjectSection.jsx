@@ -9,17 +9,17 @@ const projectData = [
     {
         id: 1,
         title: "React animated Portfolio",
-        description: "Project 1 description",
-        image: "/images/project/1.png",
+        description: "The platform is animated and describ more about me as developer",
+        image: "/images/project/p1.JPG",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/brightstar-moxi",
         previewUrl: "https://brightstar-moses.onrender.com/"
     },
     {
 
-        id: 2,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        id: 3,
+        title: "A beautiful flyer for a girl party",
+        description: "This design is used as an invitation for girls only",
         image: "/images/project/artist-flyer-sample.JPG",
         tag: ["All", "Design"],
         gitUrl: "/",
@@ -27,9 +27,9 @@ const projectData = [
     },
     {
 
-        id: 3,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        id: 2,
+        title: "Cream Promo Design",
+        description: "This design is used to call attention of customers to buy product from d seller",
         image: "/images/project/cream5.png",
         tag: ["All", "Design"],
         gitUrl: "/",

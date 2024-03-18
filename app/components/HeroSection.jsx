@@ -9,7 +9,7 @@ import {motion} from "framer-motion"
 const HeroSection = () => {
   return (
     <section className='lg:py-16'>
-       <div className='grid grid-cols-1 lg:grid-cols-12'>
+       <div className='grid grid-cols-1 sm:grid-cols-12'>
        <motion.div 
        initial={{opacity: 0, scale: 0.5}} 
        animate={{opacity:1, scale: 1}} 
@@ -35,10 +35,8 @@ const HeroSection = () => {
   repeat={Infinity}
 />
         </h1>
-    <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Amet, sit adipisci recusandae earum, id ipsum provident 
-        placeat itaque et accusantium quis quia debitis assumenda, 
-        ex possimus aspernatur. </p>
+    <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>Designing the future, One line of code at a time.</p>
+    <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis necessitatibus ratione voluptas, </p>
      {/* via-purple-500
 via-purple-500 */}
        <div>
