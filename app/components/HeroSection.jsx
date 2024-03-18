@@ -52,13 +52,13 @@ via-purple-500 */}
        initial={{opacity: 0, scale: 0.5}} 
        animate={{opacity:1, scale: 1}} 
        transition={{duration: 0.5}}className='col-span-4 place-self-center mt-4 lg:mt-0'>
-       <div className='rounded-full bg-[#181818] w-[320px] h-[320px] lg:w-[400px] lg:h-[400px] relative'>
+       <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
        <Image 
         src={Image1}
         alt="hero image"
-        className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-        width={280}
-        height={280}
+        className='absolute transform -translate-x-1/2 -translate-y-1/2 sm:top-1/2 md:top-1/3 top-1/3 left-1/2'
+        width={200}
+        height={200}
         />
        </div>
        </motion.div>
