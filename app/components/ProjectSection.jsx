@@ -8,7 +8,7 @@ import { motion, useInView } from "framer-motion"
 const projectData = [
     {
         id: 1,
-        title: "React 3D ANnimated Portfolio",
+        title: "React 3D ANNnimated Portfolio",
         description: "This platform is animated and describ more about me as developer",
         image: "/images/project/p1.JPG",
         tag: ["All", "Web"],
