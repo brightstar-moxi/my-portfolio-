@@ -8,7 +8,7 @@ import { motion, useInView } from "framer-motion"
 const projectData = [
     {
         id: 1,
-        title: "React animated Portfolio",
+        title: "React 3D ANnimated Portfolio",
         description: "This platform is animated and describ more about me as developer",
         image: "/images/project/p1.JPG",
         tag: ["All", "Web"],
@@ -44,6 +44,15 @@ const projectData = [
         tag: ["All", "Design"],
         gitUrl: "/",
         previewUrl: "/"
+    },
+    {
+        id: 10,
+        title: "Next.JS E-commerce Platform ",
+        description: "This Platform is a Best Fashion Collection where you can do online shopping and make payment,and will be deliver to address",
+        image: "/images/project/yop.JPG",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/brightstar-moxi",
+        previewUrl: "https://fullstack-ecommerce-six.vercel.app/"
     },
     {
 
@@ -104,15 +113,7 @@ const projectData = [
         gitUrl: "/",
         previewUrl: "/"
     },
-    {
-        id: 10,
-        title: "React animated Portfolio",
-        description: "Project 3 description",
-        image: "/images/project/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/"
-    },
+  
     {
         id: 11,
         title: "React animated Portfolio",
