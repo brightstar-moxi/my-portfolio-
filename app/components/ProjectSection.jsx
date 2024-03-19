@@ -9,7 +9,7 @@ const projectData = [
     {
         id: 1,
         title: "React animated Portfolio",
-        description: "The platform is animated and describ more about me as developer",
+        description: "This platform is animated and describ more about me as developer",
         image: "/images/project/p1.JPG",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/brightstar-moxi",
@@ -48,8 +48,8 @@ const projectData = [
     {
 
         id: 2,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        title: "A church program flyer",
+        description: "This design is used as an notification and invitation of church monthly program",
         image: "/images/project/segun.png",
         tag: ["All", "Design"],
         gitUrl: "/",
@@ -58,8 +58,8 @@ const projectData = [
     {
 
         id: 5,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        title: "Graphics design training flyer",
+        description: "This design is used as an invitation for that have interest in learning Graphics design",
         image: "/images/project/new.png",
         tag: ["All", "Design"],
         gitUrl: "/",
@@ -68,8 +68,8 @@ const projectData = [
     {
 
         id: 6,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        title: "A wig seller Flyer",
+        description: "This design is used to call people attention to come andd buy wigs",
         image: "/images/project/adesewa.png",
         tag: ["All", "Design"],
         gitUrl: "/",
@@ -78,8 +78,8 @@ const projectData = [
     {
 
         id: 7,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        title: "Cream Advert Flyer",
+        description: "This design is used to call people attention to come and buy cream",
         image: "/images/project/cream2.png",
         tag: ["All", "Design"],
         gitUrl: "/",
@@ -87,8 +87,8 @@ const projectData = [
     },  {
 
         id: 8,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        title: "Design For Learning ",
+        description: "his design is used as an invitation for that have interest in earning ",
         image: "/images/project/learn.jpg",
         tag: ["All", "Design"],
         gitUrl: "/",
@@ -97,8 +97,8 @@ const projectData = [
     {
 
         id: 9,
-        title: "React animated Portfolio",
-        description: "Project 2 description",
+        title: "Hair Stylist Flyer",
+        description: "This design is used to call people attention to come and dress their hair",
         image: "/images/project/hairstylist-flyer.png",
         tag: ["All", "Design"],
         gitUrl: "/",
