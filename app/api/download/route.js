@@ -1,33 +1,21 @@
-// app/api/download/route.js
+// Using Next.js API Routes (Advanced):
 
-import fs from 'fs';
-import path from 'path';
+// If you need more control or want to handle PDF downloads via an API route, you can create a custom route.
+// For example, create an API route named download-pdf.js:
 
-export async function get(req, res) {
-  if (req.method === 'GET') {
-    try {
-      // Path to the file to be downloaded
-      const filePath = path.resolve('public', 'Moses-cv.pdf');
+// // pages/api/download-pdf.js
+// import { readFile } from "fs/promises";
+// import path from "path";
 
-      // Read the file asynchronously
-      const fileStream = fs.createReadStream(filePath);
- 
-      // Set headers for the response
-      res.setHeader('Content-Type', 'application/pdf');
-      res.setHeader('Content-Disposition', 'attachment; filename=Moses-cv.pdf');
+// export default async function handler(req, res) {
+//   const filePath = path.join(process.cwd(), "public", "resume.pdf");
+//   const fileContents = await readFile(filePath);
 
-      // Pipe the file stream to the response asynchronously
-      fileStream.pipe(res);
+//   res.setHeader("Content-Disposition", "attachment; filename=resume.pdf");
+//   res.setHeader("Content-Type", "application/pdf");
+//   res.send(fileContents);
+// }
+// Then, link to this route in your component:
 
-      // Respond with JSON indicating success
-      res.status(200).json({ success: true });
-    } catch (error) {
-      console.error('Error downloading file:', error);
-      res.status(500).json({ success: false, error: 'Internal Server Error' });
-    }
-  } else {
-    // Handle unsupported HTTP methods
-    res.setHeader('Allow', ['GET']);
-    res.status(405).json({ success: false, error: 'Method Not Allowed' });
-  }
-}
+// <a href="/api/download-pdf">Download PDF</a>
+// Adjust the route path and file name as needed2.
