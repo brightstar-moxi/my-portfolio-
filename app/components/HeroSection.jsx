@@ -5,20 +5,41 @@ import Image1 from '/public/images/Capture-removebg-preview.png';
 import { TypeAnimation } from 'react-type-animation';
 import {motion} from "framer-motion";
 import Link from 'next/link';
-import { useRouter } from "next/navigation";
-
+// import { Pdf } from '/public/Moses-cv.pdf';
 
 
 const HeroSection = () => {
   // const router = useRouter();
   // const goToNewPage = () => {
-  //   router.push('/cv');
+  //   router.push('/cv'); const response = await fetch('/api/download');
+      
   // }
-  const [isOpen, setIsOpen] = useState(false);
+  // const [downloadUrl, setDownloadUrl] = useState(''); // State to hold the download URL
 
-  const togglePopover = () => {
-    setIsOpen(!isOpen);
-  };
+  // Function to handle file download
+// const handleDownload = async () => {
+//   if (Image) {
+//     const response = await fetch(Image);
+//     if (response.status !== 200) {
+//       console.log("Error fetching image");
+//       return;
+//     }
+//     const blob = await response.blob();
+//     const url = URL.createObjectURL(blob);
+//     const a = document.createElement('a');
+//     a.href = url;
+//     a.download = "Moses-cv.jpg";
+//     a.click();
+//   }
+// };
+
+
+
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // const togglePopover = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <section className='lg:py-16'>
@@ -59,20 +80,21 @@ via-purple-500 */}
             >
               Hire Me
             </Link>
-            <button
-             onClick={togglePopover}
+            <div
+            
+           
               className="relative px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <a a href="/Moses-cv.pdf" download className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
-              </span >
+              </a >
                {/* Popover content */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="absolute top-full left-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-10">
-          <div className="p-2 "><button className=" px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-primary-500 hover:bg-slate-800 text-white mt-3">Click here to Download</button></div>
+          <div className="p-2 "><button  className=" px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-primary-500 hover:bg-slate-800 text-white mt-3">Click here to Download</button></div>
         </div>
-      )}
-            </button>
+      )} */}
+            </div>
        </div>
        </motion.div>
 
