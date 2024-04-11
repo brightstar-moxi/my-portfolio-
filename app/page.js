@@ -6,6 +6,7 @@ import ProjectSection from "./components/ProjectSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementSection from "./components/AchievementSection";
+import AdBanner from "./components/AdBanner";
 // import Link from 'next/link';
 
 export default function Home() {
@@ -16,6 +17,11 @@ export default function Home() {
 <div className= "container mt-24 mx-auto px-12 py-4">
 <HeroSection/>
 <AchievementSection/>
+{/* <AdBanner 
+  dataAdFormat="auto"
+  dataFullWidthResponsive={true}
+  dataAdSlot="4284247248"
+/> */}
 <AboutSection />
 <ProjectSection/>
 <EmailSection/>

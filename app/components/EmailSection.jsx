@@ -38,6 +38,7 @@ const EmailSection = () => {
             console.log('Message sent,');
             setEmailSubmitted(true);
         }
+       
     };
     return (
         <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative' id="contact">
