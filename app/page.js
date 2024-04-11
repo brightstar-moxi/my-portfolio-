@@ -17,16 +17,14 @@ export default function Home() {
 <div className= "container mt-24 mx-auto px-12 py-4">
 <HeroSection/>
 <AchievementSection/>
-{/* <AdBanner 
-  dataAdFormat="auto"
-  dataFullWidthResponsive={true}
-  dataAdSlot="4284247248"
-/> */}
+<AdBanner/>
 <AboutSection />
 <ProjectSection/>
+<AdBanner/>
 <EmailSection/>
 
 </div>
+
 <Footer/>
      </main>
   )
